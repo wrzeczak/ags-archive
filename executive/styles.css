@@ -1,0 +1,48 @@
+body {
+    background-color: #222;
+    color: #ddd;
+}
+
+a {
+    color: #88d;
+}
+
+#number {
+    display: table;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#summary {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#repealed {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#title {
+    text-align: center;
+    text-justify: inter-word;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr td {
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    /* color: black */
+}
+
+table tr td:last-of-type {
+border-right: none;
+}
+
+table tr:last-of-type {
+    border-bottom: 1px solid #ddd;
+}
